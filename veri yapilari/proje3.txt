@@ -1,0 +1,23 @@
+Bir Binary Search Tree (BST) oluştururken ilk elemanı root (kök) olarak seçeriz ve her yeni elemanı eklerken BST özelliklerine göre yerleştiririz: Her düğüm için, solundaki düğümler daha küçük, sağındaki düğümler daha büyük olmalıdır.
+
+Root Seçimi
+İlk eleman olan 7 root (kök) olarak seçilir.
+5 Ekleme
+5, root olan 7'den küçüktür, bu yüzden 7'nin soluna eklenir.
+1 Ekleme
+1, 7'den küçüktür ve 5'ten de küçüktür. Bu yüzden 5'in soluna eklenir.
+8 Ekleme
+8, 7'den büyüktür, bu yüzden 7'nin sağına eklenir.
+3 Ekleme
+3, 7'den küçüktür ve 5'ten de küçüktür, ancak 1'den büyüktür. Bu yüzden 1'in sağına eklenir.
+6 Ekleme
+6, 7'den küçüktür ancak 5'ten büyüktür, bu yüzden 5'in sağına eklenir.
+0 Ekleme
+0, 7'den küçüktür, 5'ten de küçüktür ve 1'den de küçüktür, bu yüzden 1'in soluna eklenir.
+9 Ekleme
+9, 7'den ve 8'den büyüktür, bu yüzden 8'in sağına eklenir.
+4 Ekleme
+4, 7'den küçüktür, 5'ten de küçüktür ancak 1 ve 3'ten büyüktür, bu yüzden 3'ün sağına eklenir.
+2 Ekleme
+2, 7'den küçüktür, 5'ten de küçüktür, 1'den büyük ve 3'ten küçüktür, bu yüzden 3'ün soluna eklenir.
+o(logn)
