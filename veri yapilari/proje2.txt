@@ -1,0 +1,54 @@
+Dizi: [16, 21, 11, 8, 12, 22]
+
+Merge Sort, diziyi ikiye bölerek işlem yapar ve bölünen parçaları sıralı şekilde birleştirir. Bu yöntemin aşamaları şöyledir:
+
+Diziyi Bölme Aşamaları
+[16, 21, 11, 8, 12, 22] dizisi ortadan ikiye bölünür:
+Sol dizi: [16, 21, 11]
+Sağ dizi: [8, 12, 22]
+Sol ve sağ diziler kendi içinde tekrar bölünür:
+Sol dizi [16, 21, 11] → [16] ve [21, 11] olarak bölünür.
+Sağ dizi [8, 12, 22] → [8] ve [12, 22] olarak bölünür.
+[21, 11] ve [12, 22] dizileri de tekrar bölünür:
+[21, 11] → [21] ve [11]
+[12, 22] → [12] ve [22]
+Birleştirme ve Sıralama Aşamaları
+[21] ve [11] birleştirilir ve sıralanır: [11, 21]
+[12] ve [22] birleştirilir ve sıralanır: [12, 22]
+Sol taraftaki [16] ve [11, 21] birleştirilir ve sıralanır: [11, 16, 21]
+Sağ taraftaki [8] ve [12, 22] birleştirilir ve sıralanır: [8, 12, 22]
+Son olarak [11, 16, 21] ve [8, 12, 22] birleştirilir ve sıralanır:
+Sonuç: [8, 11, 12, 16, 21, 22]
+Big-O Gösterimi
+Merge Sort'un zaman karmaşıklığı:
+
+Best Case:
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn)
+Average Case:
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn)
+Worst Case:
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn)
+Bu zaman karmaşıklıkları, her bir aşamada dizinin ikiye bölünmesi ve her adımda
+n
+n elemanın karşılaştırılması nedeniyle oluşur.
