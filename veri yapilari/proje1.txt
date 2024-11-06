@@ -1,0 +1,13 @@
+Insertion Sort'un zaman karmaşıklığı:
+
+Best Case:
+O(n)
+O(n) — Dizi zaten sıralıysa her eleman yalnızca bir kez kontrol edilir.
+Worst Case:
+O(n2) O(n2) — Dizi ters sıralıysa her eleman en başa taşınır ve bu da her eleman için
+O(n)
+O(n) adım yapılmasına neden olur.
+Average Case:
+O(n2)
+O(n2)
+
